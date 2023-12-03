@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 contract Escrow {
     address public alice;
-    address public bob = 0xc1032D565556762d825CCd320aE55b2E005e09b5; // Bob's address is hardcoded
+    address public bob = 0xECf74C19215C8DD2BAF16AD3a6eC1A25386d813c; // Bob's address is hardcoded
     uint256 public depositAmount;
     uint256 public releaseTime = block.timestamp + 1 days; // Release time is hardcoded to 1 day
     bool public fundsReleased;
